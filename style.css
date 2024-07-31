@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+.link-menu {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 23px;
+    color: #989D9C;
+
+}
+
+.botao-menu {
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    border: 1px solid;
+    border-radius: 31px;
+    color: #FFFFFF;
+    background-color: #665AE1;
+    cursor: pointer;
+}
+
+.imagem {
+    display: inline-block;
+    width: 568px;
+    height: 500px;
+    margin: 138px 86px 0px 125px;
+
+}
+
+.texto {
+    display: inline-block;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    margin: 217px 148px 10px 0px;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color:#515151;
+    margin: 0px 213px 35px 0px;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color:#515151;
+    margin-right: 146px;
+    margin-bottom: 65px;
+}
+
+.botao-explore {
+    width: 240px;
+    height: 64px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    border: none;
+    color:#000000;
+    background-color: #ADFF00;
+    cursor: pointer;
+
+}
+.botao-explore:active {
+    opacity: 0.6;
+}
+
+.botao-menu:active {
+    opacity: 0.6;
+}
+
+.link-menu:active{
+    opacity: 0.5;
+}
+
+.link-menu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+
+    header {
+        display: none;
+    }
+
+    .imagem {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 149px 0px 24px;
+    }
+
+    .imagem img {
+        min-width: 400px;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto {
+        position: relative;
+        display: block;
+    }
+
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        margin: 0px 85px 7px 85px;
+        
+    }
+
+    h2 {
+        width: 232px;
+        height: 37px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        margin: 7px 100px 17px;
+    }
+
+    .botao-explore {
+        margin: 0px 100px 0px;
+    }
+
+    p {
+        display: none;
+    }
+}
